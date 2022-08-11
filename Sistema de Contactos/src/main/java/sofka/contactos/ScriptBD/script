@@ -1,0 +1,17 @@
+/******************** Add Table: contacto ************************/
+/* Build Table Structure */
+CREATE database libreta;
+USE libreta;
+CREATE TABLE contacto
+(
+cnt_id INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
+cnt_nombre VARCHAR(100) NOT NULL,
+cnt_email VARCHAR(100) NOT NULL,
+cnt_fecha_nacimiento VARCHAR(100) NOT NULL,
+cnt_telefono INTEGER NOT NULL,
+cnt_estado BOOLEAN NULL,
+cnt_created_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,
+cnt_updated_at DATETIME NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/* Add Indexes */
+CREATE INDEX contacto_cnt_nombre_Idx ON contacto (cnt_nombre) USING BTREE;

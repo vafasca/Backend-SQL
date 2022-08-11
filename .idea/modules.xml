@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Taller_contactos.iml" filepath="$PROJECT_DIR$/.idea/Taller_contactos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sistema de Contactos/contactos.iml" filepath="$PROJECT_DIR$/Sistema de Contactos/contactos.iml" />
+    </modules>
+  </component>
+</project>
